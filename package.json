@@ -1,18 +1,18 @@
 {
-  "name": "chat-room-solution-challenge",
+  "name": "lockedpotential",
   "version": "1.0.0",
-  "description": "Basic Chat Application for Web Application, used for the Solution Challenge 2021",
-  "main": "app.js",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "socket.io": "^3.1.2"
-  },
-  "devDependencies": {},
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js"
+    "dev": "nodemon server.js"
   },
-  "author": "Aishwarya Singh",
-  "license": "ISC"
+  "author": "Akshaya Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
