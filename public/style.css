@@ -19,12 +19,12 @@ body{
     box-shadow: 2px 9px 25px #0b2a5b;
     overflow: hidden;
     border: 1px solid #0b2a5b;
-    background: #055509;
+    background: #C49C60;
 }
 .chat-header {
     min-height: 50px;
     overflow: hidden;
-    background: #693a0e;
+    background: #755B34;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -98,7 +98,7 @@ body{
     border-radius: 14px 14px 0 14px;
 }
 .other-message .message-text{
-    background: rgb(35, 143, 7);
+    background: #F2E9DC;
     color: #111;
     border: 1px solid #ddd;
     border-radius: 14px 14px 14px 0;
@@ -127,7 +127,7 @@ body{
     max-width: 120px;
     cursor: pointer;
     color: white;
-    background-color: #5d300b;
+    background-color: #F87E17;
 }
 ::-webkit-scrollbar{
     display: none;
